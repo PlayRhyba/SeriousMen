@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9dq-aQ-M24">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="Xxs-Cp-qmJ">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="9dq-aQ-M24" customClass="LoginViewController" customModule="SeriousMan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D7M-I3-NEi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FH5-HX-Be0">
+                                <rect key="frame" x="166.5" y="323" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRA-QQ-9cb">
+                                <rect key="frame" x="137.5" y="559" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="99R-dE-PJ2"/>
+                                    <constraint firstAttribute="width" constant="100" id="RjO-UX-Phk"/>
+                                </constraints>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginButtonClicked" destination="9dq-aQ-M24" eventType="touchUpInside" id="ZPG-M9-oCP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1i-mn-S1E">
+                                <rect key="frame" x="137.5" y="617" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="2yS-Yr-poS"/>
+                                    <constraint firstAttribute="height" constant="50" id="DXw-NH-UcZ"/>
+                                </constraints>
+                                <state key="normal" title="Onboarding"/>
+                                <connections>
+                                    <action selector="onboardingButtonClicked" destination="9dq-aQ-M24" eventType="touchUpInside" id="BSj-hA-mRp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FH5-HX-Be0" firstAttribute="centerX" secondItem="D7M-I3-NEi" secondAttribute="centerX" id="0BV-Hv-Rm6"/>
+                            <constraint firstItem="I1i-mn-S1E" firstAttribute="bottom" secondItem="NGL-TW-BSZ" secondAttribute="bottom" id="Drj-eA-7v0"/>
+                            <constraint firstItem="FH5-HX-Be0" firstAttribute="centerY" secondItem="D7M-I3-NEi" secondAttribute="centerY" id="Io0-JO-NfL"/>
+                            <constraint firstItem="LRA-QQ-9cb" firstAttribute="centerX" secondItem="D7M-I3-NEi" secondAttribute="centerX" id="Tce-Hp-IP8"/>
+                            <constraint firstItem="I1i-mn-S1E" firstAttribute="top" secondItem="LRA-QQ-9cb" secondAttribute="bottom" constant="8" id="WBM-aY-VOi"/>
+                            <constraint firstItem="I1i-mn-S1E" firstAttribute="centerX" secondItem="D7M-I3-NEi" secondAttribute="centerX" id="z5T-jw-alP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NGL-TW-BSZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0yd-Es-ywG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XVR-Y9-jKy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="41" y="71"/>
+        </scene>
+    </scenes>
+</document>
