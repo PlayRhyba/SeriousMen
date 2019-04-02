@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4E7145831DF095C22652FD9F /* Pods_SeriousMan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A21A02A639FDB4D7E9564E /* Pods_SeriousMan.framework */; };
+		B081B31891A2637452510CB0 /* Pods_SeriousManTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBC6B3A86924F7F4DB23E66 /* Pods_SeriousManTests.framework */; };
+		C97CBC17225385620011FB57 /* DependencyManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97CBC16225385620011FB57 /* DependencyManagerTests.swift */; };
 		C9BFDABD2246CD0400195E1A /* OnboardingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BFDABC2246CD0400195E1A /* OnboardingNavigator.swift */; };
 		C9BFDABF2246CD1300195E1A /* OperationalNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BFDABE2246CD1300195E1A /* OperationalNavigator.swift */; };
 		C9E81ED322452367003F97AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E81ED222452367003F97AD /* AppDelegate.swift */; };
@@ -44,10 +46,25 @@
 		C9E81F462245585A003F97AD /* MeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E81F452245585A003F97AD /* MeAssembly.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C97CBC102253841A0011FB57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9E81EC722452367003F97AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E81ECE22452367003F97AD;
+			remoteInfo = SeriousMan;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		11A21A02A639FDB4D7E9564E /* Pods_SeriousMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeriousMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D115BDF8184F7E4B636992 /* Pods-SeriousMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriousMan.release.xcconfig"; path = "Target Support Files/Pods-SeriousMan/Pods-SeriousMan.release.xcconfig"; sourceTree = "<group>"; };
 		31F24D1B0F20A965CFF54086 /* Pods-SeriousMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriousMan.debug.xcconfig"; path = "Target Support Files/Pods-SeriousMan/Pods-SeriousMan.debug.xcconfig"; sourceTree = "<group>"; };
+		34E946035EE59D4B5475D12F /* Pods-SeriousManTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriousManTests.release.xcconfig"; path = "Target Support Files/Pods-SeriousManTests/Pods-SeriousManTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F72C4704E2831B3686B19C6 /* Pods-SeriousManTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriousManTests.debug.xcconfig"; path = "Target Support Files/Pods-SeriousManTests/Pods-SeriousManTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C97CBC0B2253841A0011FB57 /* SeriousManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeriousManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97CBC0F2253841A0011FB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97CBC16225385620011FB57 /* DependencyManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyManagerTests.swift; sourceTree = "<group>"; };
 		C9BFDABC2246CD0400195E1A /* OnboardingNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingNavigator.swift; sourceTree = "<group>"; };
 		C9BFDABE2246CD1300195E1A /* OperationalNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationalNavigator.swift; sourceTree = "<group>"; };
 		C9E81ECF22452367003F97AD /* SeriousMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeriousMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,9 +101,18 @@
 		C9E81F41224557E5003F97AD /* ProfileAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAssembly.swift; sourceTree = "<group>"; };
 		C9E81F432245581E003F97AD /* ChatAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAssembly.swift; sourceTree = "<group>"; };
 		C9E81F452245585A003F97AD /* MeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeAssembly.swift; sourceTree = "<group>"; };
+		CCBC6B3A86924F7F4DB23E66 /* Pods_SeriousManTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeriousManTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C97CBC082253841A0011FB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B081B31891A2637452510CB0 /* Pods_SeriousManTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9E81ECC22452367003F97AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +129,8 @@
 			children = (
 				31F24D1B0F20A965CFF54086 /* Pods-SeriousMan.debug.xcconfig */,
 				21D115BDF8184F7E4B636992 /* Pods-SeriousMan.release.xcconfig */,
+				7F72C4704E2831B3686B19C6 /* Pods-SeriousManTests.debug.xcconfig */,
+				34E946035EE59D4B5475D12F /* Pods-SeriousManTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -111,14 +139,33 @@
 			isa = PBXGroup;
 			children = (
 				11A21A02A639FDB4D7E9564E /* Pods_SeriousMan.framework */,
+				CCBC6B3A86924F7F4DB23E66 /* Pods_SeriousManTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C97CBC0C2253841A0011FB57 /* SeriousManTests */ = {
+			isa = PBXGroup;
+			children = (
+				C97CBC15225384640011FB57 /* DI */,
+				C97CBC0F2253841A0011FB57 /* Info.plist */,
+			);
+			path = SeriousManTests;
+			sourceTree = "<group>";
+		};
+		C97CBC15225384640011FB57 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				C97CBC16225385620011FB57 /* DependencyManagerTests.swift */,
+			);
+			path = DI;
 			sourceTree = "<group>";
 		};
 		C9E81EC622452367003F97AD = {
 			isa = PBXGroup;
 			children = (
 				C9E81ED122452367003F97AD /* SeriousMan */,
+				C97CBC0C2253841A0011FB57 /* SeriousManTests */,
 				C9E81ED022452367003F97AD /* Products */,
 				90AB6F66D10F3CAF464858C2 /* Pods */,
 				9D60724C68B3AEDF6FA11544 /* Frameworks */,
@@ -129,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				C9E81ECF22452367003F97AD /* SeriousMan.app */,
+				C97CBC0B2253841A0011FB57 /* SeriousManTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -346,6 +394,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C97CBC0A2253841A0011FB57 /* SeriousManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97CBC142253841A0011FB57 /* Build configuration list for PBXNativeTarget "SeriousManTests" */;
+			buildPhases = (
+				3D4A78957504754682CCC480 /* [CP] Check Pods Manifest.lock */,
+				C97CBC072253841A0011FB57 /* Sources */,
+				C97CBC082253841A0011FB57 /* Frameworks */,
+				C97CBC092253841A0011FB57 /* Resources */,
+				F0286AD3621BB50824BADAD2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97CBC112253841A0011FB57 /* PBXTargetDependency */,
+			);
+			name = SeriousManTests;
+			productName = SeriousManTests;
+			productReference = C97CBC0B2253841A0011FB57 /* SeriousManTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C9E81ECE22452367003F97AD /* SeriousMan */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9E81EE122452368003F97AD /* Build configuration list for PBXNativeTarget "SeriousMan" */;
@@ -372,10 +440,15 @@
 		C9E81EC722452367003F97AD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Spark Networks";
 				TargetAttributes = {
+					C97CBC0A2253841A0011FB57 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+						TestTargetID = C9E81ECE22452367003F97AD;
+					};
 					C9E81ECE22452367003F97AD = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -395,11 +468,19 @@
 			projectRoot = "";
 			targets = (
 				C9E81ECE22452367003F97AD /* SeriousMan */,
+				C97CBC0A2253841A0011FB57 /* SeriousManTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C97CBC092253841A0011FB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9E81ECD22452367003F97AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,6 +512,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SeriousMan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D4A78957504754682CCC480 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeriousManTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -485,9 +588,41 @@
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
 		};
+		F0286AD3621BB50824BADAD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeriousManTests/Pods-SeriousManTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeriousManTests/Pods-SeriousManTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C97CBC072253841A0011FB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97CBC17225385620011FB57 /* DependencyManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9E81ECB22452367003F97AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -526,6 +661,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C97CBC112253841A0011FB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9E81ECE22452367003F97AD /* SeriousMan */;
+			targetProxy = C97CBC102253841A0011FB57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		C9E81EDB22452368003F97AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -538,6 +681,51 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C97CBC122253841A0011FB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F72C4704E2831B3686B19C6 /* Pods-SeriousManTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeriousManTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = spark.networks.SeriousManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeriousMan.app/SeriousMan";
+			};
+			name = Debug;
+		};
+		C97CBC132253841A0011FB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E946035EE59D4B5475D12F /* Pods-SeriousManTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeriousManTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = spark.networks.SeriousManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeriousMan.app/SeriousMan";
+			};
+			name = Release;
+		};
 		C9E81EDF22452368003F97AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -695,6 +883,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C97CBC142253841A0011FB57 /* Build configuration list for PBXNativeTarget "SeriousManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97CBC122253841A0011FB57 /* Debug */,
+				C97CBC132253841A0011FB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C9E81ECA22452367003F97AD /* Build configuration list for PBXProject "SeriousMan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -7,5 +7,13 @@ target 'SeriousMan' do
   pod 'SwinjectStoryboard'
   pod 'R.swift'
   pod 'SVProgressHUD'
+  
+  target 'SeriousManTests' do
+    inherit! :search_paths
+    
+    pod 'Quick'
+    pod 'Nimble'
+    
+  end
 
 end
